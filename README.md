@@ -1,4 +1,3 @@
 spaceQuiz
 =========
-
-Run "quiz.html" file
+Go to "Quiz" foler and Run "quiz.html" file (^_^)

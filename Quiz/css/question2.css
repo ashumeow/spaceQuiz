@@ -1,0 +1,54 @@
+body{
+	background-image: url('../images/moon.jpg');
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1 {
+	background-color: 	#000000;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: "Source Code Pro", Monospace;
+	font-size: 50px;
+}
+
+#option1 {
+	font-size: 100px;
+	cursor:pointer;
+	color: 	#000000;
+	padding: 12.5px 25px;
+
+}
+
+#option2 {
+	font-size: 100px;
+	cursor:pointer;
+	color: 	#000000;
+	padding: 12.5px 25px;
+
+}
+
+#option3 {
+	font-size: 100px;
+	cursor:pointer;
+	color: 	#000000;
+	padding: 12.5px 25px;
+
+}
+#option4 {
+	font-size: 100px;
+	cursor:pointer;
+	color: 	#000000;
+	padding: 12.5px 25px;
+
+}
+#next {
+	font-size: 100px;
+	cursor:pointer;
+	color: 	#000000;
+	padding: 12.5px 25px;
+
+}

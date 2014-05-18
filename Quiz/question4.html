@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Q4</title>
+		<link rel="stylesheet" type="text/css" href="css/question4.css">
+
+	</head>
+	<body bgcolor="#6600CC">
+			<h1>On which planet humans want to go next?</h1>
+			<form name="questionOne">
+			<input id="option1" type="submit" value="Venus" onclick="sun();" />
+			<input id="option2" type="submit" value="Pluto" onclick="moon();" /> <br />
+			<input id="option3" type="submit" value="Mars" onclick= "quasar();" />
+			<input id="option4" type="submit" value="Jupiter" onclick="star();" /><br />
+			<button onclick="myFunction()" id="Next">Next</button>
+			</form>
+
+			<script type="text/javascript">
+			function sun (){
+
+				alert("Venus is the wrong answer!");
+			}
+			function moon (){
+
+				alert("Pluto is the wrong answer!");
+			}
+			function quasar (){
+
+				alert("Mars is the right answer!");
+			}
+			function star (){
+
+				alert("Jupiter is the wrong answer!");
+			}
+			function myFunction() {
+    		window.open("question5.html");
+			}
+
+
+			</script>
+
+
+	</body>
+</html>

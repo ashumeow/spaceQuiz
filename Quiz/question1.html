@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Q1</title>
+		<link rel="stylesheet" type="text/css" href="css/question1.css">
+
+	</head>
+	<body bgcolor="#6600CC">
+			<h1>What is the most brightest object in the universe?</h1>
+			<form name="questionOne">
+			<input id="option1" type="submit" value="Sun" onclick="sun();" />
+			<input id="option2" type="submit" value="Moon" onclick="moon();" /> <br />
+			<input id="option3" type="submit" value="Quasar" onclick= "quasar();" />
+			<input id="option4" type="submit" value="Star" onclick="star();" /><br />
+			<button onclick="myFunction()" id="Next">Next</button>
+			</form>
+
+			<script type="text/javascript">
+			function sun (){
+
+				alert("Sun is the wrong answer!");
+			}
+			function moon (){
+
+				alert("Moon is the wrong answer!");
+			}
+			function quasar (){
+
+				alert("Quasar is the right answer!");
+			}
+			function star (){
+
+				alert("Star is the wrong answer!");
+			}
+			function myFunction() {
+    		window.open("question2.html");
+			}
+
+
+			</script>
+
+
+	</body>
+</html>

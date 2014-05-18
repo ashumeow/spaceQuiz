@@ -1,0 +1,16 @@
+body{
+	background-image: url('../images/shinchan.jpg');
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1 {
+		font-size: 150px;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: "Source Code Pro", Monospace;
+
+}

@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Q3</title>
+		<link rel="stylesheet" type="text/css" href="css/question3.css">
+
+	</head>
+	<body bgcolor="#6600CC">
+			<h1>Which is the biggest planet in our solar system?</h1>
+			<form name="questionOne">
+			<input id="option1" type="submit" value="Mars" onclick="sun();" />
+			<input id="option2" type="submit" value="Earth" onclick="moon();" /> <br />
+			<input id="option3" type="submit" value="Saturn" onclick= "quasar();" />
+			<input id="option4" type="submit" value="Jupiter" onclick="star();" /><br />
+			<button onclick="myFunction()" id="Next">Next</button>
+			</form>
+
+			<script type="text/javascript">
+			function sun (){
+
+				alert("Mars is the wrong answer!");
+			}
+			function moon (){
+
+				alert("Earth is the wrong answer!");
+			}
+			function quasar (){
+
+				alert("Saturn is the wrong answer!");
+			}
+			function star (){
+
+				alert("Jupiter is the right answer!");
+			}
+			function myFunction() {
+    		window.open("question4.html");
+			}
+
+
+			</script>
+
+
+	</body>
+</html>
